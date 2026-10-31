@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Monthsary 🎃</title>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Caveat:wght@500;700&family=Nunito:wght@700;800&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+
+<!-- ===== THIS LINE CONNECTS THE DESIGN (style.css) ===== -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="bg"></div>
+
+<section class="scr on" id="s0">
+  <div class="moon" id="moon">🌕</div>
+  <h1>Happy Monthsary Ashi!</h1>
+  <p class="sub">A spooky little surprise is waiting for you, but you have to beat the game first… 👻</p>
+  <button class="btn" id="go">Start 🎃</button>
+  <p class="sub" style="font-size:13px;opacity:.6">🔊 Turn your sound on (silent mode off)</p>
+</section>
+
+<section class="scr" id="s1">
+  <div id="hud"><span id="sc">🎃 0/18</span><span id="lv">❤️❤️❤️</span><div id="bar"><i id="bi"></i></div><span id="tm">25</span></div>
+  <div id="field">
+    <div id="msg"><h1 id="mt" style="font-size:44px"></h1><p class="sub" id="mp"></p><button class="btn" id="rt">Try again</button></div>
+  </div>
+  <p class="sub" style="font-size:14px;margin:8px 0 0">Tap 18 pumpkins 🎃 — bats 🦇 and skulls 💀 cost a life! Some pumpkins are tricksters 😈</p>
+</section>
+
+<section class="scr" id="s2">
+  <h1>You did it! 🎉</h1>
+  <p class="sub">The curse is broken, and a surprise just appeared for you…</p>
+  <div class="env" id="env">💌</div>
+  <button class="btn" id="open">Open your surprise 💌</button>
+</section>
+
+<section class="scr" id="s3">
+  <div class="letter"><h2 id="lh"></h2><p id="lt"></p><div id="envs"></div><div id="ls"></div><div id="tr"></div><div id="fq"></div></div>
+</section>
+
+<div id="fx"></div>
+<button id="mus" aria-label="music">🎵</button>
+
+<div id="ed">
+  <b>Preview panel (only you see this)</b>
+  <label>Photo 1 <input type="file" accept="image/*" data-i="0"></label>
+  <label>Photo 2 <input type="file" accept="image/*" data-i="1"></label>
+  <label>Photo 3 <input type="file" accept="image/*" data-i="2"></label>
+  <label>Music <input type="file" accept="audio/*" id="mf"></label>
+  <label>Start at (seconds) <input type="number" id="ms" min="0" value="0"></label>
+  <button class="btn" id="skip" style="margin:4px 0;padding:8px">Skip to letter</button>
+</div>
+
+<script src="script.js"></script></body></html>
