@@ -1,6 +1,6 @@
 /* ===== EDIT THESE (or just send me the details and I’ll fill them in) ===== */
 const C={
-  her:"Baby",
+  her:"Ashii",
   me:"Your Markii",
   photos:["ashii.jpeg", "baby.jpeg", "gf.jpeg"],          // up to 3 pictures
   music:"only.m4a",           // song file
@@ -93,7 +93,7 @@ async function toLove(){const f=$("fx");f.innerHTML="<span>💗</span>";f.classL
   await sl(900);openLetter();await sl(150);f.classList.remove("on");going=0}
 
 function openLetter(){stopAmb();document.documentElement.classList.add("love");$("bg").innerHTML="";bgf(["💗","💖","🌸","🎀","💕","🌷","✨"]);
-  $("lh").textContent="Happy Monthsary, "+C.her+" 💗";$("lt").textContent="Tap the envelope 💌";
+  $("lh").textContent="Happy Monthsary, "+C.her+"";$("lt").textContent="Tap the envelope 💌";
   $("ls").innerHTML=$("tr").innerHTML=$("fq").innerHTML="";
   const old=$("no");if(old&&old.parentNode===document.body)old.remove();
   buildEnvs();show(3);scrollTo(0,0);
@@ -129,7 +129,7 @@ function renderAsk(){const f=$("fq");f.innerHTML='<p>Will you be my trick-or-tre
     no.style.position="fixed";no.style.margin="0";no.style.left=x+"px";no.style.top=y+"px";bad()};
   no.onpointerdown=flee;no.onclick=e=>e.preventDefault();
   no.onpointerenter=e=>{if(e.pointerType==="mouse")flee(e)};
-  yes.onclick=()=>{no.remove();win();for(let i=0;i<7;i++)setTimeout(()=>burst(Math.random()*innerWidth,Math.random()*innerHeight*.7+60,["🎃","🧡","💜","👻","🦇","✨"],12),i*260);f.innerHTML='<h2>I knew it! 💖</h2><p style="text-align:center">Happy monthsary, '+C.her+'. I love you more than all the candy in the world. 💖</p>';dn()}}
+  yes.onclick=()=>{no.remove();win();for(let i=0;i<7;i++)setTimeout(()=>burst(Math.random()*innerWidth,Math.random()*innerHeight*.7+60,["🎃","🧡","💜","👻","🦇","✨"],12),i*260);f.innerHTML='<h2>I knew it! </h2><p style="text-align:center">Happy monthsary, '+C.her+'. I love you more than all the candy in the world. 💖</p>';dn()}}
 
 $("s3").addEventListener("pointerdown",e=>burst(e.clientX,e.clientY,["✨","🧡","🎃"],4));
 
@@ -141,3 +141,4 @@ $("mf").onchange=e=>{const f=e.target.files[0];if(f){C.music=URL.createObjectURL
 $("ms").oninput=e=>{C.start=+e.target.value||0};
 $("skip").onclick=()=>{run=0;clearInterval(sp);clearInterval(tm);openLetter()};
 
+                                                                                                                         
