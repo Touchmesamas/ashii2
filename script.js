@@ -4,7 +4,7 @@ const C={
   me:"Your Markii",
   photos:["ashii.jpeg", "baby.jpeg", "gf.jpeg"],          // up to 3 pictures
   music:"only.m4a",           // song file
-  start:165,            // seconds into the song where it begins
+  start:162,            // seconds into the song where it begins
   letter:[            // one letter per envelope (keep it at 3)
     "It’s officially November 1st, Happy 8th Monthsarry baby ko you're the best gf in the world thank you for still staying super love ko ikaw you're the greatest thing na dumating sa buhay ko iloveyou.",
     "My silly baby ashii man i hope to do it all with you very soon all the plans, first times, silly adventures and the freaky things man i wanna have do it all with you iloveyou 😝.",
